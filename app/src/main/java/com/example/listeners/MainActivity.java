@@ -65,10 +65,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
     @Override
     public void onStartTrackingTouch(SeekBar seekBar) {
-          if(seekBarProgress>50){
-          emoji.setX(seekBarProgress*2);}
-          emoji.setY(seekBarProgress*2);
-          emoji.setAlpha(seekBarProgress/255f);
+          emoji.setX(seekBarProgress*2);
     }
 
     @Override
